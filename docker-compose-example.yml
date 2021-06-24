@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  sync:
+    build: .
+    environment:
+      - ONE_HOST=
+      - ONE_ACCESS_KEY=
+      - ONE_SECRET_KEY=
+      - ONE_BUCKET=
+      - TWO_HOST=
+      - TWO_ACCESS_KEY=
+      - TWO_SECRET_KEY=
+      - TWO_BUCKET=
+      - TWOWAY=true
