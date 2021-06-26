@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   sync:
-    build: .
+    image: rg.fr-par.scw.cloud/4x0-net/s3-sync:latest
     environment:
       - ONE_HOST=
       - ONE_ACCESS_KEY=
